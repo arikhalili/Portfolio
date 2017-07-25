@@ -22,12 +22,16 @@
   
   <h> Want to know more?? </h>
   
-  <p id="demo"> Im currently in 11th grade. I going to take the SAT this year. I think im prepared .</p>
+  <p>I'm going into 11th grade. Im excited. Im going to take the SAT this year. I think im prepared.</p>
 
-<button type="button" onclick="myFunction()">Press here for more</button>
+<button onclick="displayDate()">Press me</button>
 
-function myFunction() {
-    document.getElementById("demo").innerHTML = "That was a lie.";
+<script>
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
 }
+</script>
+
+<p id="demo">That was a lie</p>
    
       </html>
